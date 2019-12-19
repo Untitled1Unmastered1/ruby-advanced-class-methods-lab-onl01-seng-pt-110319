@@ -48,7 +48,6 @@ class Song
       info = row.split(", ")
     artist_name = rows[0]
     song_match = rows[1].split(".mp3")
-    binding.pry 
   end 
 end 
 end 
