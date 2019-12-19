@@ -57,4 +57,6 @@ class Song
     song.artist_name = rows[0] 
     @@all << song
   end
+  
+  
 end 
