@@ -51,4 +51,6 @@ class Song
   end 
   
   def self.create_by_name(filename)
+    filename
+    binding.pry 
 end 
