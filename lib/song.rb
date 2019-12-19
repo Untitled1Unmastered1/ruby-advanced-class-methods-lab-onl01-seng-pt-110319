@@ -56,7 +56,5 @@ class Song
     song.name = rows[1].split(".mp3")[0]
     song.artist_name = rows[0] 
     @@all << song
-    song 
   end
-end 
 end 
