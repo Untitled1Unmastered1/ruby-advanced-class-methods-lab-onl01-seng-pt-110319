@@ -46,3 +46,5 @@ class Song
     rows = filename.split(".mp3")
     file = rows.split("-")
     binding.pry 
+  end 
+end 
