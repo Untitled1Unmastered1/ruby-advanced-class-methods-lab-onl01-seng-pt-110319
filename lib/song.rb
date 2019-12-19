@@ -44,10 +44,10 @@ class Song
 
   def self.new_from_filename(filename)
     rows = filename.split("-")
-    binding.pry 
     data = rows.collect do |row|
       info = row.split(",")
     artist_name = info[0]
+    binding.pry
     song_match = info[1].split(".mp3")
   end 
 end 
