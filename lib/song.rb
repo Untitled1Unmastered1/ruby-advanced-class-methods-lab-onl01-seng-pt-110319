@@ -46,4 +46,4 @@ class Song
     rows = filename.split(".mp3")
     file = rows.collect do |row|
       data = row.split("-")
-    binding.pry 
+  binding.pry 
