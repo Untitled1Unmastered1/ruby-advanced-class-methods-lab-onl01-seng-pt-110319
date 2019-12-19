@@ -51,7 +51,7 @@ class Song
   end 
   
   def self.create_from_filename(mp3_file)
-    mp3_file = song.create 
+    mp3_file = self.new 
     @@all << filename 
   end
 end 
