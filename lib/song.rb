@@ -47,7 +47,7 @@ class Song
     song = self.new 
     song.name = rows[1].split(".mp3")
     song.artist_name = rows[0] 
-    binding.pry 
+    # binding.pry 
     song 
   end 
 end 
