@@ -46,7 +46,7 @@ class Song
     rows = filename.split(" - ")
     song = self.new 
     song = rows[1].split(".mp3")
-    song.artist_name = rows[0].split  
+    song.artist_name = rows[0] 
     binding.pry 
     song 
   end 
