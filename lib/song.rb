@@ -49,4 +49,6 @@ class Song
     song.artist_name = rows[0] 
     song 
   end 
+  
+  def self.create_by_name(filename)
 end 
