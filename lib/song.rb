@@ -43,7 +43,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    filename
+    rows = filename.split(".mp3")
     binding.pry 
  end 
 end 
