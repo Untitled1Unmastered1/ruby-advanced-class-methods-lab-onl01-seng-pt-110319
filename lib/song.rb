@@ -50,8 +50,8 @@ class Song
     song 
   end 
   
-  def self.create_from_filename(filename)
-    filename = song.create 
+  def self.create_from_filename(mp3_file)
+    mp3_file = song.create 
     @@all << filename 
   end
 end 
