@@ -44,7 +44,8 @@ class Song
 
   def self.new_from_filename(filename)
     rows = filename.split("-")
-    data = rows.collect do |row|
+    data = rows.collect do|row| 
+    file = data.split(".mp3")
     binding.pry 
     # file = rows.collect do |row|
     #   data = row.split("-")
