@@ -47,8 +47,8 @@ class Song
     data = rows.collect do |row|
       info = row.split(", ")
     artist_name = rows[0]
+    song_match = rows[1].split(".mp3")
     binding.pry 
-    song_match = info[1].split(".mp3")
   end 
 end 
 end 
